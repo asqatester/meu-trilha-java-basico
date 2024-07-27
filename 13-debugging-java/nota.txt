@@ -1,0 +1,76 @@
+projeto copiado do git indicado na aula:
+
+https://github.com/cami-la/debugging-java
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Fiquei em dúvida por que o programa não faz o cálculo da média certo quando trocamos só o tipo da média para double.
+Tipo, pensei assim: os valores das notas são inteiros, só a média que vai dar um valor quebrado, daí vou trocar só o tipo da média para double, mas quando faço isso, ele apresenta o valor com 1 casa decimal, mas só com a parte inteira da conta mesmo assim. Só deu certo o cálculo da média quando troquei o tipo de todo mundo, mesmo a entrada sendo um inteiro, entendeu?
+
+O tipo inteiro int não tem casas decimais, beleza? Quando fazemos uma divisão e ela não é exata, precisamos de casas decimais para o resultado.
+
+Para não correr o risco de perder essas casas decimais, sempre que quisermos trabalhar com valores que eventualmente precisam de casas decimais, devemos usar double ou float sem pestanejar. hehe
+
+Mas para resolver essa sua situação, sem precisar trocar todos os valores para double. Podemos fazer o seguinte:
+
+Se eu dividir int/int, o resultado sempre será um int, mesmo se a divisão não for exata:
+
+class HelloWorld {
+    public static void main(String[] args) {
+        int grade1 = 5; 
+        int grade2 = 6;
+        
+        double average = (grade1 + grade2) / 2;
+        
+        System.out.println(average); // Vai imprimir 5.0, mas esperamos 5.5
+    }
+}
+Para resolver isso, precisamos garantir que a divisão seja feita com valores decimais. Podemos fazer isso convertendo pelo menos um dos valores para double:
+
+class HelloWorld {
+    public static void main(String[] args) {
+        int grade1 = 5; 
+        int grade2 = 6;
+        
+        double average = (grade1 + grade2) / 2.0; //dividido por 2.0 ao invés de 2
+        
+        System.out.println(average); // Vai imprimir 5.5, que é o resultado correto
+    }
+}
+Nesse exemplo, ao dividir por 2.0 em vez de 2, garantimos que a operação é feita com números de ponto flutuante, preservando as casas decimais.
+
+--------------------------------------------------------------------------------------------------------------
+
+Gostaria de entender melhor o porquê na hora de mudar o conceito "Média da turma %d" você colocou o conceito "f", se o valor é um double, o correto não seria ou omitir o "d" ou deixá-lo lá? Fiquei com dúvida nessa questão de conceito. 
+
+Bom, System.out.printf("Média da turma %.1f", media); esse %.1f é por conta do arredondamento. Não por conta do double. Tá? Por exemlo se a variável média fosse do tipo float, iria dar certo também.
+
+Por exemplo se o resultado der um valor 3.35678, vai arredondar para 3.4 (1 casa decimal %.1f), se usarmos %.2f (2 casas decimais %.2f) o resultado é 3.36, se usarmos %.3f (3 casas decimais %.3f) o resultado é 3,357 e assim sucessivamente...
+
+
+Acredito que funcione porque um float cabe dentro do espaço de um double mas não o contrario, alias acredito que até o nome double seja justamente por caber o dobro de float em um double
+
+O conceito do %d é diferente do conceito de %.f, onde o %d é usado para formatar valores inteiros e o %.f é usado para especificar as casas decimais.
+
+
+--------------------------------------------------------------------------------------------------------------
+
+A minha dúvida é concernente ao comando ´´Thread.dumpStack´´. Gostaria de saber se este comando só se usa no último método da classe. E será que este mesmo comando serve para debagar? Porque depois utilizamos algumas ferramentas para debagar o nosso código...
+Não percebi com clareza...
+
+Sobre essse método Thread.dumpStack pode desconsiderar. Só foi usado em caráter didático mesmo, já que a ferramenta de debug da própria IDE é o suficiente. (:
+
+Mas se quiser se aprofundar, nesse site você pode ver várias situações em que esse método pode ser usado https://www.tabnine.com/code/java/methods/java.lang.Thread/dumpStack
+
+
+
+-------------------------------------------------------
+
+eu fiz uma API simulando a sacola do iFood: https://www.dio.me/dev-week/ifood/ifood-developer
+É um projetinho bem legal para exercitar backend com Java. Porém, dependendo do seu nível de domínio com Java, fique um pouco complexo.
+
+Uma dica: No YouTube tem vários projetos com várias linguagens. Você pode fazer algum projeto do YouTube escolhendo a linguagem de programação na qual você tem mais domínio.
+
+
+

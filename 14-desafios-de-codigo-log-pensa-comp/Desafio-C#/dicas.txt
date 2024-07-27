@@ -1,0 +1,17 @@
+dotnet new --list
+
+lista todos os tipos de projetos qu epodem ser criados com C#
+
+Aviso: o uso de 'dotnet new --list' foi preterido. Use apenas: 'dotnet new list'.
+Para obter mais informações sobre um tipo de projeto, execute: dotnet new list -h
+
+---------------------------------------
+
+dotnet new console -o MeuProjetoConsole
+
+cria um novo projeto do tipo Console com o nome especificado
+
+dotnet run
+
+executa o projeto C#
+

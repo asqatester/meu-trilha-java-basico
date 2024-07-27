@@ -1,0 +1,14 @@
+C:\0-treina-dev\00-dio-dev-java-ia\meu-trilha-java-basico\14-desafios-de-codigo-log-pensa-comp\Desafio-C#\Desafio-C#\bin\Debug\net8.0\Desafio-C#.exe
+C:\0-treina-dev\00-dio-dev-java-ia\meu-trilha-java-basico\14-desafios-de-codigo-log-pensa-comp\Desafio-C#\Desafio-C#\bin\Debug\net8.0\Desafio-C#.deps.json
+C:\0-treina-dev\00-dio-dev-java-ia\meu-trilha-java-basico\14-desafios-de-codigo-log-pensa-comp\Desafio-C#\Desafio-C#\bin\Debug\net8.0\Desafio-C#.runtimeconfig.json
+C:\0-treina-dev\00-dio-dev-java-ia\meu-trilha-java-basico\14-desafios-de-codigo-log-pensa-comp\Desafio-C#\Desafio-C#\bin\Debug\net8.0\Desafio-C#.dll
+C:\0-treina-dev\00-dio-dev-java-ia\meu-trilha-java-basico\14-desafios-de-codigo-log-pensa-comp\Desafio-C#\Desafio-C#\bin\Debug\net8.0\Desafio-C#.pdb
+C:\0-treina-dev\00-dio-dev-java-ia\meu-trilha-java-basico\14-desafios-de-codigo-log-pensa-comp\Desafio-C#\Desafio-C#\obj\Debug\net8.0\Desafio-C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\0-treina-dev\00-dio-dev-java-ia\meu-trilha-java-basico\14-desafios-de-codigo-log-pensa-comp\Desafio-C#\Desafio-C#\obj\Debug\net8.0\Desafio-C#.AssemblyInfoInputs.cache
+C:\0-treina-dev\00-dio-dev-java-ia\meu-trilha-java-basico\14-desafios-de-codigo-log-pensa-comp\Desafio-C#\Desafio-C#\obj\Debug\net8.0\Desafio-C#.AssemblyInfo.cs
+C:\0-treina-dev\00-dio-dev-java-ia\meu-trilha-java-basico\14-desafios-de-codigo-log-pensa-comp\Desafio-C#\Desafio-C#\obj\Debug\net8.0\Desafio-C#.csproj.CoreCompileInputs.cache
+C:\0-treina-dev\00-dio-dev-java-ia\meu-trilha-java-basico\14-desafios-de-codigo-log-pensa-comp\Desafio-C#\Desafio-C#\obj\Debug\net8.0\Desafio-C#.dll
+C:\0-treina-dev\00-dio-dev-java-ia\meu-trilha-java-basico\14-desafios-de-codigo-log-pensa-comp\Desafio-C#\Desafio-C#\obj\Debug\net8.0\refint\Desafio-C#.dll
+C:\0-treina-dev\00-dio-dev-java-ia\meu-trilha-java-basico\14-desafios-de-codigo-log-pensa-comp\Desafio-C#\Desafio-C#\obj\Debug\net8.0\Desafio-C#.pdb
+C:\0-treina-dev\00-dio-dev-java-ia\meu-trilha-java-basico\14-desafios-de-codigo-log-pensa-comp\Desafio-C#\Desafio-C#\obj\Debug\net8.0\Desafio-C#.genruntimeconfig.cache
+C:\0-treina-dev\00-dio-dev-java-ia\meu-trilha-java-basico\14-desafios-de-codigo-log-pensa-comp\Desafio-C#\Desafio-C#\obj\Debug\net8.0\ref\Desafio-C#.dll
