@@ -68,6 +68,16 @@ public class CatalogoLivros {
     catalogoLivros.adicionarLivro("Código Limpo", "Robert C. Martin", 2010);
     catalogoLivros.adicionarLivro("O Programador Pragmático", "Andy Hunt e Dave Thomas", 2009);
     catalogoLivros.adicionarLivro("O Codificador Limpo", "Robert C. Martin", 2012);
+    catalogoLivros.adicionarLivro("Design Patterns: Elements of Reusable Object-Oriented Software", "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides", 1994);
+    catalogoLivros.adicionarLivro("Código Limpo: A arte da programação", "Robert C. Martin", 2009); // Tradução brasileira
+    catalogoLivros.adicionarLivro("The Mythical Man-Month", "Frederick P. Brooks Jr.", 1975);
+    catalogoLivros.adicionarLivro("Refactoring: Improving the Design of Existing Code", "Martin Fowler", 1999);
+    catalogoLivros.adicionarLivro("Clean Architecture: A Craftsman's Guide to Software Structure", "Robert C. Martin", 2017);
+    catalogoLivros.adicionarLivro("O Design de Software na Prática", "Eric Freeman", 2014);
+    catalogoLivros.adicionarLivro("Refatoração", "Martin Fowler", 2019);
+    catalogoLivros.adicionarLivro("Clean Code: A Handbook of Agile Software Craftsmanship", "Robert C. Martin", 2008);
+    catalogoLivros.adicionarLivro("Introdução ao Algoritmo", "Thomas H. Cormen et al.", 2009);
+    catalogoLivros.adicionarLivro("JavaScript: O Guia Definitivo", "David Flanagan", 2020);
 
     // Exibindo livros pelo mesmo autor
     System.out.println("******** PESQUISA POR MESMO AUTOR:");
