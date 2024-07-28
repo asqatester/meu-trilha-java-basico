@@ -67,6 +67,17 @@ public class AgendaContatos {
     agendaContatos.adicionarContato("Ana", 88889999);
     agendaContatos.adicionarContato("Fernando", 77778888);
     agendaContatos.adicionarContato("Carolina", 55555555);
+    agendaContatos.adicionarContato("Pedro", 654321098);
+    agendaContatos.adicionarContato("Ana Clara", 987654321); // Mesmo sobrenome que "Ana"
+    agendaContatos.adicionarContato("Carlos Eduardo", 123456789);
+    agendaContatos.adicionarContato("Juliana", 55555555); // Mesmo número que "Maria Fernandes" e "Carolina"
+    agendaContatos.adicionarContato("Rafael", 88889999); // Mesmo número que "Ana"
+    agendaContatos.adicionarContato("Fernanda", 77778888); // Mesmo número que "Fernando"
+    agendaContatos.adicionarContato("Bruna", 44443333);
+    agendaContatos.adicionarContato("Gustavo", 22221111);
+    agendaContatos.adicionarContato("Luiza", 987654321); // Mesmo número que "Maria" e "Ana Clara"
+    agendaContatos.adicionarContato("Paulo", 11112222);
+
 
     // Exibindo os contatos na agenda
     agendaContatos.exibirContatos();

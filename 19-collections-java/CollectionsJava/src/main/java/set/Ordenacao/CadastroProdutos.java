@@ -44,6 +44,17 @@ public class CadastroProdutos {
     cadastroProdutos.adicionarProduto(2L, "Notebook", 1500d, 5);
     cadastroProdutos.adicionarProduto(1L, "Mouse", 30d, 20);
     cadastroProdutos.adicionarProduto(4L, "Teclado", 50d, 15);
+    cadastroProdutos.adicionarProduto(5L, "Tablet", 800d, 8);
+    cadastroProdutos.adicionarProduto(6L, "Smartwatch", 500d, 12);
+    cadastroProdutos.adicionarProduto(7L, "Fones de ouvido", 150d, 30);
+    cadastroProdutos.adicionarProduto(8L, "Impressora", 300d, 5);
+    cadastroProdutos.adicionarProduto(9L, "Monitor", 400d, 10);
+    cadastroProdutos.adicionarProduto(10L, "Caixa de som", 200d, 15);
+    cadastroProdutos.adicionarProduto(11L, "Câmera digital", 700d, 7);
+    cadastroProdutos.adicionarProduto(12L, "Projetor", 1200d, 3);
+    cadastroProdutos.adicionarProduto(13L, "Pen drive", 20d, 50);
+    cadastroProdutos.adicionarProduto(14L, "HD externo", 100d, 25);
+
 
     // Exibindo todos os produtos no cadastro
     System.out.println(cadastroProdutos.produtoSet);

@@ -1,7 +1,10 @@
 package main.java.set.OperacoesBasicas;
 
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
+
+import main.java.list.Ordenacao.Pessoa;
 
 public class ConjuntoConvidados {
   //atributo
@@ -36,7 +39,12 @@ public class ConjuntoConvidados {
 
   public void exibirConvidados() {
     if (!convidadosSet.isEmpty()) {
-      System.out.println(convidadosSet);
+    	System.out.println("************** LISTA DE CONVIDADOS ATUALIZADA ****************");
+    	 for (Convidado convidado : convidadosSet) {
+    		 
+             System.out.println(convidado);
+         }
+     // System.out.println(convidadosSet);
     } else {
       System.out.println("O conjunto está vazio!");
     }
@@ -55,10 +63,9 @@ public class ConjuntoConvidados {
     conjuntoConvidados.adicionarConvidado("Charlie", 1235);
     conjuntoConvidados.adicionarConvidado("David", 1236);
 
-    // Exibindo os convidados no conjunto
-    System.out.println("Convidados no conjunto:");
+    //EXIBINDO LISTA ATUALIZADA DE CONVIDADOS
     conjuntoConvidados.exibirConvidados();
-
+    
     // Exibindo o número atualizado de convidados no conjunto
     System.out.println("Existem " + conjuntoConvidados.contarConvidados() + " convidado(s) dentro do Set de Convidados");
 
