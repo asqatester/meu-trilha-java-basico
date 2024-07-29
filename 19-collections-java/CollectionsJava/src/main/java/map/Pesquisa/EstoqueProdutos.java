@@ -78,6 +78,17 @@ public class EstoqueProdutos {
     estoque.adicionarProduto(2L, "Mouse", 5, 25.0);
     estoque.adicionarProduto(3L, "Monitor", 10, 400.0);
     estoque.adicionarProduto(4L, "Teclado", 2, 40.0);
+    estoque.adicionarProduto(5L, "Impressora", 7, 300.0);
+    estoque.adicionarProduto(6L, "Cadeira Ergonômica", 3, 600.0);
+    estoque.adicionarProduto(7L, "Mesa de Escritório", 4, 450.0);
+    estoque.adicionarProduto(8L, "Webcam", 8, 80.0);
+    estoque.adicionarProduto(9L, "Microfone", 6, 120.0);
+    estoque.adicionarProduto(10L, "Fone de Ouvido", 12, 90.0);
+    estoque.adicionarProduto(11L, "Pen Drive 64GB", 15, 35.0);
+    estoque.adicionarProduto(12L, "HD Externo 1TB", 9, 250.0);
+    estoque.adicionarProduto(13L, "Roteador", 5, 150.0);
+    estoque.adicionarProduto(14L, "Projetor", 2, 700.0);
+
 
     // Exibe os produtos no estoque
     estoque.exibirProdutos();
