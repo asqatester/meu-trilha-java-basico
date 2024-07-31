@@ -7,9 +7,7 @@ public class OperacoesBancarias {
 		santosCC.setNome("Santos");
 		
 		Cliente andradeCP = new Cliente();
-		andradeCP.setNome("Andrade");
-		
-		
+		andradeCP.setNome("Silva");
 		
 		Conta cc = new ContaCorrente(santosCC);
 		cc.depositar(150);
